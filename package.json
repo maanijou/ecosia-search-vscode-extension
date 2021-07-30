@@ -16,6 +16,15 @@
     ],
     "main": "./out/extension.js",
     "contributes": {
+        "menus": {
+            "editor/context": [
+                {
+                    "command": "ecosia-search.search",
+                    "when": "editorHasSelection",
+                    "group": "Navigation"
+                }
+            ]
+        },
         "commands": [
             {
                 "command": "ecosia-search.search",
