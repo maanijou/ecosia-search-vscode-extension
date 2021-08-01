@@ -2,15 +2,25 @@
     "name": "ecosia-search",
     "displayName": "Ecosia search",
     "description": "Search with Ecosia! The search engine that plants trees 🌲",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "maanijou",
-    "repository": "https://github.com/maanijou/ecosia-search-vscode-extension",
+    "icon": "resources/icon.png",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/maanijou/ecosia-search-vscode-extension"
+	},
     "engines": {
         "vscode": "^1.58.0"
     },
+    "bugs": {
+		"url": "https://github.com/maanijou/ecosia-search-vscode-extension/issues"
+	},
     "categories": [
         "Other"
     ],
+    "keywords": [
+		"search ecosia"
+	],
     "activationEvents": [
         "onCommand:ecosia-search.search"
     ],
