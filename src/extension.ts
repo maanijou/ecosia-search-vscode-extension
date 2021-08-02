@@ -1,3 +1,4 @@
+import { stringify } from 'querystring';
 import * as vscode from 'vscode';
 
 const MAX_URL_LENGHT = 2047;
@@ -11,19 +12,19 @@ export function activate(context: vscode.ExtensionContext) {
 		if (!activeTextEditor) {
 			vscode.window.showInformationMessage('Make sure to activate an editor window first and select some texts.');
 			return;
-		}
+		}                      
 
 		if (activeTextEditor.selection.isEmpty) {
 			vscode.window.showInformationMessage('Make sure to activate an editor window first and select some texts.');
 			return;
 		}
 
-		// TODO: Fix characters and whitespaces
 		let query: string = activeTextEditor.document.getText(activeTextEditor.selection);
 		if (!query) {
 			vscode.window.showInformationMessage('Make sure to activate an editor window first and select some texts.');
 			return;
 		}
+		query = query.replace(/\s+/g,' ').trim();
 		query = encodeURI(query);
 		const url: string = `https://ecosia.org/search?q=${query}`;
 		if (url.length > MAX_URL_LENGHT) {
