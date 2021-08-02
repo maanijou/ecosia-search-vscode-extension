@@ -12,6 +12,8 @@ The Ecosia search extension for Visual Studio Code makes it easy to search your 
 
 Highlight and right-click the text and select `search with Ecosia`. 
 
+![highlight and search](resources/tutorial1.gif)
+
 ## Disclaimer
 
 This extension is not an official extension from Ecosia. The extension only opens search results inside the Ecosia search engine. [Ecosia](https://www.ecosia.org/) and all its assets are properties of [Ecosia GmbH](https://info.ecosia.org/about).
