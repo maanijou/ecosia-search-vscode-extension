@@ -2,7 +2,7 @@
     "name": "ecosia-search",
     "displayName": "Ecosia search",
     "description": "Search with Ecosia! The search engine that plants trees 🌲",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "publisher": "maanijou",
     "icon": "resources/icon.png",
     "repository": {
