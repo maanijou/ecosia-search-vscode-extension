@@ -2,25 +2,25 @@
     "name": "ecosia-search",
     "displayName": "Ecosia search",
     "description": "Search with Ecosia! The search engine that plants trees 🌲",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "maanijou",
     "icon": "resources/icon.png",
     "repository": {
-		"type": "git",
-		"url": "https://github.com/maanijou/ecosia-search-vscode-extension"
-	},
+        "type": "git",
+        "url": "https://github.com/maanijou/ecosia-search-vscode-extension"
+    },
     "engines": {
         "vscode": "^1.58.0"
     },
     "bugs": {
-		"url": "https://github.com/maanijou/ecosia-search-vscode-extension/issues"
-	},
+        "url": "https://github.com/maanijou/ecosia-search-vscode-extension/issues"
+    },
     "categories": [
         "Other"
     ],
     "keywords": [
-		"search ecosia"
-	],
+        "search ecosia"
+    ],
     "activationEvents": [
         "onCommand:ecosia-search.search"
     ],
@@ -39,6 +39,26 @@
             {
                 "command": "ecosia-search.search",
                 "title": "Search with Ecosia"
+            }
+        ],
+        "configuration": [
+            {
+                "title": "Ecosia-Search",
+                "properties": {
+                    "ecosia-search.ifNoSelection": {
+                        "type": "string",
+                        "description": "Specify behaviour if text isn't selected.",
+                        "default": "emptySearchPage",
+                        "enum": [
+                            "error",
+                            "emptySearchPage"
+                        ],
+                        "enumDescriptions": [
+                            "Show an error and ignore the request",
+                            "Open empty search page"
+                        ]
+                    }
+                }
             }
         ]
     },

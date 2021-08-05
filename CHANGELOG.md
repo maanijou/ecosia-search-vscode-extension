@@ -2,11 +2,12 @@
 
 All notable changes to the "ecosia-search" extension will be documented in this file.
 
-## [0.1.0]
+## [0.1.x]
 
 - First stable release
 - Fix context menu group
 - Remove extra spaces from queries
+- Add config for situations when no text is selected
 
 ## [0.0.2]
 
