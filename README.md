@@ -14,6 +14,9 @@ Highlight and right-click the text and select `search with Ecosia`.
 
 ![highlight and search](resources/tutorial1.gif)
 
+
+Search your clipboard text from vscode using `search clipboard` command.
+
 ## Extension Settings
 
 This extension contributes the following settings:
