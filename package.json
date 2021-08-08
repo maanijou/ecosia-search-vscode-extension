@@ -2,7 +2,7 @@
     "name": "ecosia-search",
     "displayName": "Ecosia search",
     "description": "Search with Ecosia! The search engine that plants trees 🌲",
-    "version": "0.1.2",
+    "version": "0.2.0",
     "publisher": "maanijou",
     "icon": "resources/icon.png",
     "repository": {
@@ -22,7 +22,8 @@
         "search ecosia"
     ],
     "activationEvents": [
-        "onCommand:ecosia-search.search"
+        "onCommand:ecosia-search.search",
+        "onCommand:ecosia-search.searchFromClipboard"
     ],
     "main": "./out/extension.js",
     "contributes": {
@@ -39,6 +40,10 @@
             {
                 "command": "ecosia-search.search",
                 "title": "Search with Ecosia"
+            },
+            {
+                "command": "ecosia-search.searchFromClipboard",
+                "title": "Search clipboard with Ecosia"
             }
         ],
         "configuration": [
