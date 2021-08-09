@@ -4,7 +4,8 @@ All notable changes to the "ecosia-search" extension will be documented in this 
 
 ## [0.2.x]
 
-- Search from clipboard
+- Search from clipboard.
+- Add max url lenght setting.
 
 ## [0.1.x]
 
