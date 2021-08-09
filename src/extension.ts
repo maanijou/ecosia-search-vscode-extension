@@ -1,8 +1,7 @@
-import { stringify } from 'querystring';
 import * as vscode from 'vscode';
 
 const SEARCH_URL = "https://ecosia.org/search?q=";
-const MAX_URL_LENGHT = 2047;
+const MAX_URL_LENGHT: number = vscode.workspace.getConfiguration().get('ecosia-search.maxQueryLength', 2047);
 
 export function activate(context: vscode.ExtensionContext) {
 

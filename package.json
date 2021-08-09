@@ -2,7 +2,7 @@
     "name": "ecosia-search",
     "displayName": "Ecosia search",
     "description": "Search with Ecosia! The search engine that plants trees 🌲",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "publisher": "maanijou",
     "icon": "resources/icon.png",
     "repository": {
@@ -62,6 +62,11 @@
                             "Show an error and ignore the request",
                             "Open empty search page"
                         ]
+                    },
+                    "ecosia-search.maxQueryLength": {
+                        "type": "int",
+                        "description": "Specify behavior if the text isn't selected (2047 for IE and other browsers)",
+                        "default": 2047
                     }
                 }
             }
