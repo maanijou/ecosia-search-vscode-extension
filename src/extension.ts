@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 
 const SEARCH_URL = "https://ecosia.org/search?q=";
-const MAX_URL_LENGHT: number = vscode.workspace.getConfiguration().get('ecosia-search.maxQueryLength', 2047);
+const MAX_URL_LENGTH: number = vscode.workspace.getConfiguration().get('ecosia-search.maxQueryLength', 2047);
 
 export function activate(context: vscode.ExtensionContext) {
 
@@ -35,7 +35,7 @@ export function activate(context: vscode.ExtensionContext) {
         query = query.replace(/\s+/g, ' ').trim();
         query = encodeURI(query);
         const url: string = `${SEARCH_URL}${query}`;
-        if (url.length > MAX_URL_LENGHT) {
+        if (url.length > MAX_URL_LENGTH) {
             vscode.window.showInformationMessage('Try to select a smaller range of text. The selected text is too large.');
             return;
         }
@@ -55,7 +55,7 @@ export function activate(context: vscode.ExtensionContext) {
         query = query.replace(/\s+/g, ' ').trim();
         query = encodeURI(query);
         const url: string = `${SEARCH_URL}${query}`;
-        if (url.length > MAX_URL_LENGHT) {
+        if (url.length > MAX_URL_LENGTH) {
             vscode.window.showInformationMessage('Try to select a smaller range of text. The selected text is too large.');
             return;
         }

@@ -2,7 +2,7 @@
     "name": "ecosia-search",
     "displayName": "Ecosia search",
     "description": "Search with Ecosia! The search engine that plants trees 🌲",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "publisher": "maanijou",
     "icon": "resources/icon.png",
     "repository": {
@@ -65,7 +65,7 @@
                     },
                     "ecosia-search.maxQueryLength": {
                         "type": "int",
-                        "description": "Specify behavior if the text isn't selected (2047 for IE and other browsers)",
+                        "description": "Maximum search length (url length). Default is 2047 to support IE browser.",
                         "default": 2047
                     }
                 }

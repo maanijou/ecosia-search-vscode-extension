@@ -22,6 +22,7 @@ Search your clipboard text from vscode using `search clipboard` command.
 This extension contributes the following settings:
 
 * `ecosia-search.ifNoSelection`: Specifies the behavior in case no text is selected. Show errors by setting to `error` or opening an empty search result page using `emptySearchPage` (default).
+* `ecosia-search.maxQueryLength`: Maximum search length (url length). Default is 2047 to support IE browser.
 
 ## Disclaimer
 
