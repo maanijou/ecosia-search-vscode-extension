@@ -13,6 +13,7 @@ export function activate(context: vscode.ExtensionContext) {
         let activeTextEditor = vscode.window.activeTextEditor;
         if (!activeTextEditor) {
             vscode.window.showInformationMessage('Make sure to activate an editor window first and select some texts.');
+            console.info('No window/text is selected');
             return;
         }
 
@@ -22,6 +23,7 @@ export function activate(context: vscode.ExtensionContext) {
                 return;
             } else if (noSelectionBehaviour === "error") {
                 vscode.window.showInformationMessage('Make sure to activate an editor window first and select some texts.');
+                console.info('No window/text is selected');
                 return;
             }
         }
@@ -29,6 +31,7 @@ export function activate(context: vscode.ExtensionContext) {
         let query: string = activeTextEditor.document.getText(activeTextEditor.selection);
         if (!query) {
             vscode.window.showInformationMessage('Make sure to activate an editor window first and select some texts.');
+            console.info('No window/text is selected');
             return;
         }
 
@@ -37,6 +40,7 @@ export function activate(context: vscode.ExtensionContext) {
         const url: string = `${SEARCH_URL}${query}`;
         if (url.length > MAX_URL_LENGTH) {
             vscode.window.showInformationMessage('Try to select a smaller range of text. The selected text is too large.');
+            console.info('Generated query is bigger than max url length.');
             return;
         }
         vscode.commands.executeCommand("vscode.open", vscode.Uri.parse(url));
@@ -49,6 +53,7 @@ export function activate(context: vscode.ExtensionContext) {
 
         if (!query) {
             vscode.window.showInformationMessage('There is no text in the clipboard.');
+            console.info('Clipboard is empty.');
             return;
         }
 
@@ -57,6 +62,7 @@ export function activate(context: vscode.ExtensionContext) {
         const url: string = `${SEARCH_URL}${query}`;
         if (url.length > MAX_URL_LENGTH) {
             vscode.window.showInformationMessage('Try to select a smaller range of text. The selected text is too large.');
+            console.info('Generated query is bigger than max url length.');
             return;
         }
         vscode.commands.executeCommand("vscode.open", vscode.Uri.parse(url));
