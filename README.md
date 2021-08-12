@@ -15,7 +15,10 @@ Highlight and right-click the text and select `search with Ecosia`.
 ![highlight and search](resources/tutorial1.gif)
 
 
-Search your clipboard text from vscode using `search clipboard` command.
+Search your clipboard text from vscode using `search clipboard` command. This is especially helpful to search something from vscode terminal.
+
+![Search using clipboard](resources/tutorial2.gif)
+
 
 ## Extension Settings
 
