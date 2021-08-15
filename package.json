@@ -46,6 +46,18 @@
                 "title": "Search clipboard with Ecosia"
             }
         ],
+        "keybindings":[
+            {
+                "command": "ecosia-search.search",
+                "key": "Ctrl+K Ctrl+Shift+S",
+                "mac": "Cmd+K Cmd+Shift+S"
+            },
+            {
+                "command": "ecosia-search.searchFromClipboard",
+                "key": "Ctrl+K Ctrl+Shift+F",
+                "mac": "Cmd+K Cmd+Shift+F"
+            }
+        ],
         "configuration": [
             {
                 "title": "Ecosia-Search",
