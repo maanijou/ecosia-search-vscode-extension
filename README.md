@@ -8,16 +8,30 @@
 
 The Ecosia search extension for Visual Studio Code makes it easy to search your code on the internet. The extension uses Ecosia search engine, a search engine that plants trees! Code, search and help to plant trees. For more information, visit [Ecosia webpage](https://info.ecosia.org/what).
 
+## What's new?
+
+### [version 1.0.0]
+
+Now you can search for what you want just by using your keyboard shortcuts! Select or copy a text and use shortcuts to open the search results. 
+
 ## Features
 
 Highlight and right-click the text and select `search with Ecosia`.
 
 ![highlight and search](resources/tutorial1.gif)
 
-
 Search your clipboard text from vscode using `search clipboard` command. This is especially helpful to search something from vscode terminal.
 
 ![Search using clipboard](resources/tutorial2.gif)
+
+### Keybidings
+
+Now you can easily search only by using keyboard shortcuts.
+
+* `Ctrl+K Ctrl+Shift+F` to search from clipboard.
+* `Ctrl+K Ctrl+Shift+S` to search selected text.
+
+You can change these settings using the vscode Keyboard shortcuts section.
 
 
 ## Extension Settings

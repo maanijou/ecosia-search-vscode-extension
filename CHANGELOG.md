@@ -2,6 +2,10 @@
 
 All notable changes to the "ecosia-search" extension will be documented in this file.
 
+## [1.0.0]
+
+- Add keybidings for commands.
+
 ## [0.2.x]
 
 - Search from clipboard.
