@@ -33,13 +33,17 @@ Now you can easily search only by using keyboard shortcuts.
 
 You can change these settings using the vscode Keyboard shortcuts section.
 
-
 ## Extension Settings
 
 This extension contributes the following settings:
 
 * `ecosia-search.ifNoSelection`: Specifies the behavior in case no text is selected. Show errors by setting to `error` or opening an empty search result page using `emptySearchPage` (default).
 * `ecosia-search.maxQueryLength`: Maximum search length (url length). Default is 2047 to support IE browser.
+
+## Known Issues
+
+* The context menu does not work on preview pages or terminal and I Can't search selected text.
+  * At this moment, vscode does not support API to use selected text. The workaround is to copy the text and use search from the clipboard or use the keyboard shortcut to search the copied text.
 
 ## Disclaimer
 
