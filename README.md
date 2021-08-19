@@ -1,4 +1,3 @@
-
 ![vscode version](https://vsmarketplacebadge.apphb.com/version/maanijou.ecosia-search.svg)
 ![number of installs](https://vsmarketplacebadge.apphb.com/installs/maanijou.ecosia-search.svg)
 ![average user rating](https://vsmarketplacebadge.apphb.com/rating/maanijou.ecosia-search.svg)
@@ -9,6 +8,10 @@
 The Ecosia search extension for Visual Studio Code makes it easy to search your code on the internet. The extension uses Ecosia search engine, a search engine that plants trees! Code, search and help to plant trees. For more information, visit [Ecosia webpage](https://info.ecosia.org/what).
 
 ## What's new?
+
+### [version 1.1.0]
+
+Add option to select a different search engine.
 
 ### [version 1.0.0]
 
@@ -39,6 +42,7 @@ This extension contributes the following settings:
 
 * `ecosia-search.ifNoSelection`: Specifies the behavior in case no text is selected. Show errors by setting to `error` or opening an empty search result page using `emptySearchPage` (default).
 * `ecosia-search.maxQueryLength`: Maximum search length (url length). Default is 2047 to support IE browser.
+* `ecosia-search.searchEngine`: Select your search engine of choice (default is, of course, Ecosia)
 
 ## Known Issues
 

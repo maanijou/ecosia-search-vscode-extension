@@ -2,6 +2,10 @@
 
 All notable changes to the "ecosia-search" extension will be documented in this file.
 
+## [1.1.0]
+
+- Add an option to select a different search engine in extension settings.
+
 ## [1.0.0]
 
 - Add keybidings for commands.
