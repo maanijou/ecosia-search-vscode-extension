@@ -2,7 +2,7 @@
     "name": "ecosia-search",
     "displayName": "Ecosia search",
     "description": "Search with Ecosia! The search engine that plants trees 🌲",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "maanijou",
     "icon": "resources/icon.png",
     "repository": {
@@ -79,6 +79,21 @@
                         "type": "int",
                         "description": "Maximum search length (url length). Default is 2047 to support IE browser.",
                         "default": 2047
+                    },
+                    "ecosia-search.searchEngine": {
+                        "type": "string",
+                        "description": "Specify search engine to be used",
+                        "default": "ecosia",
+                        "enum": [
+                            "ecosia",
+                            "duckduckgo",
+                            "google"
+                        ],
+                        "enumDescriptions": [
+                            "Ecosia search engine! The search engine that plants trees!",
+                            "Duck Duck Go, privacy-preserving search engine",
+                            "Google Search engine"
+                        ]
                     }
                 }
             }
