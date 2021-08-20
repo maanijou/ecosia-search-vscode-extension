@@ -42,7 +42,7 @@ This extension contributes the following settings:
 
 * `ecosia-search.ifNoSelection`: Specifies the behavior in case no text is selected. Show errors by setting to `error` or opening an empty search result page using `emptySearchPage` (default).
 * `ecosia-search.maxQueryLength`: Maximum search length (url length). Default is 2047 to support IE browser.
-* `ecosia-search.searchEngine`: Select your search engine of choice (default is, of course, Ecosia)
+* `ecosia-search.searchEngine`: Select your desired search engine (default is, of course, Ecosia)
 
 ## Known Issues
 
