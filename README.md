@@ -7,6 +7,8 @@
 
 The Ecosia search extension for Visual Studio Code makes it easy to search your code on the internet. The extension uses Ecosia search engine, a search engine that plants trees! Code, search and help to plant trees. For more information, visit [Ecosia webpage](https://info.ecosia.org/what).
 
+If you prefer **other search engines**, you still have the option to change the default search engine from the extension settings.
+
 ## What's new?
 
 ### [version 1.1.0]
