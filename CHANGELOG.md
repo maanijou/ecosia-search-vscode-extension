@@ -4,7 +4,7 @@ All notable changes to the "ecosia-search" extension will be documented in this 
 
 ## [1.2.0]
 
-- Improve commands title.
+- Improved the commands title.
 
 ## [1.1.0]
 

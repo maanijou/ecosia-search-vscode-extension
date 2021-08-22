@@ -11,13 +11,17 @@ If you prefer **other search engines**, you still have the option to change the 
 
 ## What's new?
 
+### [version 1.2.0]
+
+- Improved commands title.
+
 ### [version 1.1.0]
 
-Add option to select a different search engine.
+- Add option to select a different search engine.
 
 ### [version 1.0.0]
 
-Now you can search for what you want just by using your keyboard shortcuts! Select or copy a text and use shortcuts to open the search results.
+- Now you can search for what you want just by using your keyboard shortcuts! Select or copy a text and use shortcuts to open the search results.
 
 ## Features
 
@@ -33,8 +37,8 @@ Search your clipboard text from vscode using `search clipboard` command. This is
 
 Now you can easily search only by using keyboard shortcuts.
 
-* `Ctrl+K Ctrl+Shift+F` to search from clipboard.
-* `Ctrl+K Ctrl+Shift+S` to search selected text.
+- `Ctrl+K Ctrl+Shift+F` to search from clipboard.
+- `Ctrl+K Ctrl+Shift+S` to search the selected text.
 
 You can change these settings using the vscode Keyboard shortcuts section.
 
@@ -42,14 +46,14 @@ You can change these settings using the vscode Keyboard shortcuts section.
 
 This extension contributes the following settings:
 
-* `ecosia-search.ifNoSelection`: Specifies the behavior in case no text is selected. Show errors by setting to `error` or opening an empty search result page using `emptySearchPage` (default).
-* `ecosia-search.maxQueryLength`: Maximum search length (url length). Default is 2047 to support IE browser.
-* `ecosia-search.searchEngine`: Select your desired search engine (default is, of course, Ecosia)
+- `ecosia-search.searchEngine`: Select your desired search engine (default is, of course, Ecosia)
+- `ecosia-search.ifNoSelection`: Specifies the behavior in case no text is selected. Show errors by setting to `error` or opening an empty search result page using `emptySearchPage` (default).
+- `ecosia-search.maxQueryLength`: Maximum search length (url length). Default is 2047 to support IE browser.
 
 ## Known Issues
 
-* The context menu does not work on preview pages or terminal and I Can't search selected text.
-  * At this moment, vscode does not support API to use selected text. The workaround is to copy the text and use search from the clipboard or use the keyboard shortcut to search the copied text.
+- The context menu does not work on preview pages or terminal and I Can't search selected text.
+  - At this moment, vscode does not support an API to use selected text in such windows. The workaround is to copy the text and use search from the clipboard or use the keyboard shortcuts to search the copied text.
 
 ## Disclaimer
 
