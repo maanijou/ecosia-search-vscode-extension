@@ -1,12 +1,14 @@
 import * as vscode from 'vscode';
+import { appendLanguageID } from './utils/utils';
 
 const MAX_URL_LENGTH: number = vscode.workspace.getConfiguration().get("ecosia-search.maxQueryLength", 2047);
 const SEARCH_ENGINE: string = vscode.workspace.getConfiguration().get("ecosia-search.searchEngine", "ecosia");
+const MUST_APPEND_LANGUAGE_ID: boolean = vscode.workspace.getConfiguration().get("ecosia-search.autoInsertLanguageName", true);
 
 const SEARCH_ENGINE_URLS: { [key: string]: string } = {
     "ecosia": "https://ecosia.org/search?q=",
     "google": "https://www.google.com/search?q=",
-    "duckduckgo": "https://duckduckgo.com/?q="
+    "duckduckgo": "https://duckduckgo.com/?q=",
 };
 
 export function activate(context: vscode.ExtensionContext) {
@@ -17,6 +19,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     let disposable = vscode.commands.registerCommand('ecosia-search.search', () => {
         let activeTextEditor = vscode.window.activeTextEditor;
+        const languageID: string | undefined = activeTextEditor?.document.languageId;
         if (!activeTextEditor) {
             vscode.window.showInformationMessage('Make sure to activate an editor window first and select some texts.');
             console.info('No window/text is selected');
@@ -42,6 +45,11 @@ export function activate(context: vscode.ExtensionContext) {
         }
 
         query = query.replace(/\s+/g, ' ').trim();
+
+        if(MUST_APPEND_LANGUAGE_ID){
+           query = appendLanguageID(query, languageID, SEARCH_ENGINE);
+        }
+
         query = encodeURI(query);
         const url: string = `${SEARCH_ENGINE_URLS[SEARCH_ENGINE]}${query}`;
         if (url.length > MAX_URL_LENGTH) {
