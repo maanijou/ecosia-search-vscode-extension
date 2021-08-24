@@ -2,16 +2,18 @@
 
 All notable changes to the "ecosia-search" extension will be documented in this file.
 
+## [1.3.0]
+
+- Add language name to the query automatically.
+
 ## [1.2.0]
 
 - Improved the commands title.
 
-## [1.1.0]
+
+## [1.x.0]
 
 - Add an option to select a different search engine in extension settings.
-
-## [1.0.0]
-
 - Add keybidings for commands.
 
 ## [0.2.x]

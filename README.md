@@ -11,16 +11,17 @@ If you prefer **other search engines**, you still have the option to change the 
 
 ## What's new?
 
+### [version 1.3.0]
+
+- Append language name to the query automatically.
+
 ### [version 1.2.0]
 
 - Improved commands title.
 
-### [version 1.1.0]
+### [version 1.x.x]
 
 - Add option to select a different search engine.
-
-### [version 1.0.0]
-
 - Now you can search for what you want just by using your keyboard shortcuts! Select or copy a text and use shortcuts to open the search results.
 
 ## Features
@@ -47,6 +48,7 @@ You can change these settings using the vscode Keyboard shortcuts section.
 This extension contributes the following settings:
 
 - `ecosia-search.searchEngine`: Select your desired search engine (default is, of course, Ecosia)
+- `ecosia-search.autoInsertLanguageName`: Whether to add language name to the query automatically (only for selected texts). Default is `true`.
 - `ecosia-search.ifNoSelection`: Specifies the behavior in case no text is selected. Show errors by setting to `error` or opening an empty search result page using `emptySearchPage` (default).
 - `ecosia-search.maxQueryLength`: Maximum search length (url length). Default is 2047 to support IE browser.
 
