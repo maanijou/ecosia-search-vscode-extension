@@ -46,7 +46,7 @@
                 "title": "Ecosia: Search clipboard"
             }
         ],
-        "keybindings":[
+        "keybindings": [
             {
                 "command": "ecosia-search.search",
                 "key": "Ctrl+K Ctrl+Shift+S",
