@@ -11,9 +11,10 @@ If you prefer **other search engines**, you still have the option to change the 
 
 ## What's new?
 
-### [version 1.4.0]
+### [version 1.4.x]
 
 - Fixed problem with queries with special characters.
+- Fixed setting changes do not take effect immediately.
 
 ### [version 1.3.0]
 
@@ -60,6 +61,8 @@ This extension contributes the following settings:
 
 - The context menu does not work on preview pages or terminal and I Can't search selected text.
   - At this moment, vscode does not support an API to use selected text in such windows. The workaround is to copy the text and use search from the clipboard or use the keyboard shortcuts to search the copied text.
+
+Submit the issues if you find any bug or have any suggestion.
 
 ## Disclaimer
 

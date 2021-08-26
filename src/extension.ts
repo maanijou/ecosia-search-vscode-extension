@@ -1,14 +1,10 @@
 import * as vscode from 'vscode';
 import { appendLanguageID } from './utils/utils';
 
-const MAX_URL_LENGTH: number = vscode.workspace.getConfiguration().get("ecosia-search.maxQueryLength", 2047);
-const SEARCH_ENGINE: string = vscode.workspace.getConfiguration().get("ecosia-search.searchEngine", "ecosia");
-const MUST_APPEND_LANGUAGE_ID: boolean = vscode.workspace.getConfiguration().get("ecosia-search.autoInsertLanguageName", true);
-
 const SEARCH_ENGINE_URLS: { [key: string]: string } = {
     "ecosia": "https://ecosia.org/search?q=",
-    "google": "https://www.google.com/search?q=",
     "duckduckgo": "https://duckduckgo.com/?q=",
+    "google": "https://www.google.com/search?q=",
 };
 
 export function activate(context: vscode.ExtensionContext) {
@@ -18,6 +14,10 @@ export function activate(context: vscode.ExtensionContext) {
     const noSelectionBehaviour = vscode.workspace.getConfiguration().get('ecosia-search.ifNoSelection');
 
     let disposable = vscode.commands.registerCommand('ecosia-search.search', () => {
+        const MAX_URL_LENGTH: number = vscode.workspace.getConfiguration().get("ecosia-search.maxQueryLength", 2047);
+        const SEARCH_ENGINE: string = vscode.workspace.getConfiguration().get("ecosia-search.searchEngine", "ecosia");
+        const MUST_APPEND_LANGUAGE_ID: boolean = vscode.workspace.getConfiguration().get("ecosia-search.autoInsertLanguageName", true);
+
         let activeTextEditor = vscode.window.activeTextEditor;
         const languageID: string | undefined = activeTextEditor?.document.languageId;
         if (!activeTextEditor) {
@@ -64,7 +64,9 @@ export function activate(context: vscode.ExtensionContext) {
 
 
     let clipboardDisposable = vscode.commands.registerCommand('ecosia-search.searchFromClipboard', async () => {
-
+        const MAX_URL_LENGTH: number = vscode.workspace.getConfiguration().get("ecosia-search.maxQueryLength", 2047);
+        const SEARCH_ENGINE: string = vscode.workspace.getConfiguration().get("ecosia-search.searchEngine", "ecosia");
+        
         let query: string = await vscode.env.clipboard.readText();
 
         if (!query) {

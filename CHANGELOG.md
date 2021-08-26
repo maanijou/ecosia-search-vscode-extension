@@ -2,9 +2,10 @@
 
 All notable changes to the "ecosia-search" extension will be documented in this file.
 
-## [1.4.0]
+## [1.4.x]
 
 - Fixed problem with queries with special characters.
+- Fixed setting changes do not take effect immediately.
 
 ## [1.3.0]
 
