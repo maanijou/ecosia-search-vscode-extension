@@ -45,19 +45,21 @@ export function activate(context: vscode.ExtensionContext) {
         }
 
         query = query.replace(/\s+/g, ' ').trim();
-
-        if(MUST_APPEND_LANGUAGE_ID){
-           query = appendLanguageID(query, languageID, SEARCH_ENGINE);
+        if (MUST_APPEND_LANGUAGE_ID) {
+            query = appendLanguageID(query, languageID, SEARCH_ENGINE);
         }
-
-        query = encodeURI(query);
+        query = encodeURIComponent(query);
         const url: string = `${SEARCH_ENGINE_URLS[SEARCH_ENGINE]}${query}`;
+
         if (url.length > MAX_URL_LENGTH) {
             vscode.window.showInformationMessage('Try to select a smaller range of text. The selected text is too large.');
             console.info('Generated query is bigger than max url length.');
             return;
         }
-        vscode.commands.executeCommand("vscode.open", vscode.Uri.parse(url));
+
+        // workaround to fix url encode problems in vscode
+        // @ts-ignore 
+        vscode.env.openExternal(url);
     });
 
 
@@ -72,14 +74,18 @@ export function activate(context: vscode.ExtensionContext) {
         }
 
         query = query.replace(/\s+/g, ' ').trim();
-        query = encodeURI(query);
+        query = encodeURIComponent(query);
         const url: string = `${SEARCH_ENGINE_URLS[SEARCH_ENGINE]}${query}`;
+
         if (url.length > MAX_URL_LENGTH) {
             vscode.window.showInformationMessage('Try to select a smaller range of text. The selected text is too large.');
             console.info('Generated query is bigger than max url length.');
             return;
         }
-        vscode.commands.executeCommand("vscode.open", vscode.Uri.parse(url));
+
+        // workaround to fix url encode problems in vscode
+        // @ts-ignore 
+        vscode.env.openExternal(url);
     });
 
     context.subscriptions.push(clipboardDisposable);

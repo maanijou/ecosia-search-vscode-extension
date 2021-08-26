@@ -11,6 +11,10 @@ If you prefer **other search engines**, you still have the option to change the 
 
 ## What's new?
 
+### [version 1.4.0]
+
+- Fixed problem with queries with special characters.
+
 ### [version 1.3.0]
 
 - Append language name to the query automatically.

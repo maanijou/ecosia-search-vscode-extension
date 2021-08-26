@@ -2,6 +2,10 @@
 
 All notable changes to the "ecosia-search" extension will be documented in this file.
 
+## [1.4.0]
+
+- Fixed problem with queries with special characters.
+
 ## [1.3.0]
 
 - Add language name to the query automatically.
