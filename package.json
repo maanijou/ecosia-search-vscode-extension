@@ -4,6 +4,7 @@
     "description": "Search with Ecosia! The search engine that plants trees 🌲",
     "version": "1.4.2",
     "publisher": "maanijou",
+    "license": "MIT",
     "icon": "resources/icon.png",
     "repository": {
         "type": "git",
