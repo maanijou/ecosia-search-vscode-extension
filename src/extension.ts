@@ -3,6 +3,7 @@ import { appendLanguageID } from './utils/utils';
 
 const SEARCH_ENGINE_URLS: { [key: string]: string } = {
     "ecosia": "https://ecosia.org/search?q=",
+    "bing": "https://www.bing.com/search?q=",
     "duckduckgo": "https://duckduckgo.com/?q=",
     "google": "https://www.google.com/search?q=",
 };
