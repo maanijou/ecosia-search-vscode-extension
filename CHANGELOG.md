@@ -2,6 +2,10 @@
 
 All notable changes to the "ecosia-search" extension will be documented in this file.
 
+## [1.5.0]
+
+- Add bing as an alternaive search engine.
+
 ## [1.4.x]
 
 - Fixed problem with queries with special characters.
