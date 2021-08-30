@@ -35,11 +35,11 @@ If you prefer **other search engines**, you still have the option to change the 
 
 ## Features
 
-Highlight and right-click the text and select `search with Ecosia`.
+Highlight and right-click the text and select `Ecosia: Search`.
 
 ![highlight and search](resources/tutorial1.gif)
 
-Search your clipboard text from vscode using `search clipboard` command. This is especially helpful to search something from vscode terminal.
+Search your clipboard text from vscode using `Ecosia: Search clipboard` command. This is especially helpful to search something from vscode terminal.
 
 ![Search using clipboard](resources/tutorial2.gif)
 
