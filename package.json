@@ -89,13 +89,15 @@
                             "ecosia",
                             "bing",
                             "duckduckgo",
-                            "google"
+                            "google",
+                            "stackoverflow"
                         ],
                         "enumDescriptions": [
                             "Ecosia search engine! The search engine that plants trees!",
                             "Bing search Engine",
                             "DuckDuckGo, privacy-preserving search engine",
-                            "Google search engine"
+                            "Google search engine",
+                            "Stackoverflow"
                         ]
                     },
                     "ecosia-search.autoInsertLanguageName": {
