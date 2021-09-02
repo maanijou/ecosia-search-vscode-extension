@@ -11,6 +11,10 @@ If you prefer **other search engines**, you still have the option to change the 
 
 ## What's new?
 
+### [version 1.6.0]
+
+- Add stackoverflow as an alternative search engine.
+
 ### [version 1.5.0]
 
 - Add bing as an alternaive search engine.
