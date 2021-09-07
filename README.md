@@ -1,6 +1,7 @@
 ![vscode version](https://vsmarketplacebadge.apphb.com/version/maanijou.ecosia-search.svg)
 ![number of installs](https://vsmarketplacebadge.apphb.com/installs/maanijou.ecosia-search.svg)
 ![average user rating](https://vsmarketplacebadge.apphb.com/rating/maanijou.ecosia-search.svg)
+[![Build and Test](https://github.com/maanijou/ecosia-search-vscode-extension/actions/workflows/node.js.yml/badge.svg)](https://github.com/maanijou/ecosia-search-vscode-extension/actions/workflows/node.js.yml)
 ![license](https://img.shields.io/github/license/maanijou/ecosia-search-vscode-extension.svg)
 
 # Ecosia search
