@@ -1,11 +1,11 @@
 # Ecosia search
 
-![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/maanijou.ecosia-search.svg)
-![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/maanijou.ecosia-search.svg)
-![Visual Studio Marketplace Rating Stars](https://img.shields.io/visual-studio-marketplace/stars/maanijou.ecosia-search.svg)
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/maanijou.ecosia-search.svg)
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/maanijou.ecosia-search)
+![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/maanijou.ecosia-search)
+![Visual Studio Marketplace Rating Stars](https://img.shields.io/visual-studio-marketplace/stars/maanijou.ecosia-search)
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/maanijou.ecosia-search)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/maanijou/ecosia-search-vscode-extension/Build,%20Lint,%20and%20Test)
-![License](https://img.shields.io/github/license/maanijou/ecosia-search-vscode-extension.svg)
+![License](https://img.shields.io/github/license/maanijou/ecosia-search-vscode-extension)
 
 
 The Ecosia search extension for Visual Studio Code makes it easy to search your code on the internet. The extension uses Ecosia search engine, a search engine that plants trees! Code, search and help to plant trees. For more information, visit [Ecosia webpage](https://info.ecosia.org/what).
