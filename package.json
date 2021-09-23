@@ -2,7 +2,7 @@
     "name": "ecosia-search",
     "displayName": "Ecosia search",
     "description": "Search with Ecosia! The search engine that plants trees 🌲",
-    "version": "1.6.1",
+    "version": "1.6.2",
     "publisher": "maanijou",
     "license": "MIT",
     "icon": "resources/icon.png",
@@ -130,6 +130,7 @@
         "mocha": "^8.4.0",
         "typescript": "^4.3.2",
         "vsce": "^1.99.0",
-        "vscode-test": "^1.5.2"
+        "vscode-test": "^1.5.2",
+        "nth-check": ">=2.0.1"
     }
 }
