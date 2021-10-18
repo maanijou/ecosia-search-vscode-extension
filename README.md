@@ -74,7 +74,7 @@ This extension contributes the following settings:
 - The context menu does not work on preview pages or terminal and I Can't search selected text.
   - At this moment, vscode does not support an API to use selected text in such windows. The workaround is to copy the text and use search from the clipboard or use the keyboard shortcuts to search the copied text.
 
-Submit the issues if you find any bug or have any suggestion.
+Submit the issues if you find any bugs or have any suggestions.
 
 ## Disclaimer
 
