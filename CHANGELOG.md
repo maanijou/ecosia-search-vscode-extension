@@ -2,7 +2,7 @@
 
 All notable changes to the "ecosia-search" extension will be documented in this file.
 
-## [1.6.3]
+## [1.6.4]
 
 - Add stackoverflow as an alternative search engine.
 
