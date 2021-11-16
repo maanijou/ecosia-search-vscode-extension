@@ -20,7 +20,12 @@
         "Other"
     ],
     "keywords": [
-        "search ecosia"
+        "search ecosia",
+        "search",
+        "bing",
+        "google",
+        "stackoverflow",
+        "duckduckgo"
     ],
     "activationEvents": [
         "onCommand:ecosia-search.search",
