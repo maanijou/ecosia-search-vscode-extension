@@ -2,7 +2,7 @@
     "name": "ecosia-search",
     "displayName": "Ecosia search",
     "description": "Search with Ecosia! The search engine that plants trees 🌲",
-    "version": "1.6.6",
+    "version": "1.6.7",
     "publisher": "maanijou",
     "license": "MIT",
     "icon": "resources/icon.png",
@@ -124,18 +124,18 @@
         "deploy": "vsce publish"
     },
     "devDependencies": {
-        "@types/glob": "^7.1.3",
+        "@types/glob": "^7.2.0",
         "@types/mocha": "^8.2.2",
-        "@types/node": "14.x",
-        "@types/vscode": "^1.58.0",
-        "@typescript-eslint/eslint-plugin": "^4.26.0",
-        "@typescript-eslint/parser": "^4.26.0",
-        "eslint": "^7.27.0",
-        "glob": "^7.1.7",
+        "@types/node": "^14.18.5",
+        "@types/vscode": "^1.63.1",
+        "@typescript-eslint/eslint-plugin": "^4.33.0",
+        "@typescript-eslint/parser": "^4.33.0",
+        "eslint": "^7.32.0",
+        "glob": "^7.2.0",
         "mocha": "^9.1.3",
         "nth-check": ">=2.0.1",
-        "typescript": "^4.3.2",
-        "vsce": "^1.99.0",
+        "typescript": "^4.5.4",
+        "vsce": "^1.103.1",
         "vscode-test": "^1.5.2"
     }
 }
