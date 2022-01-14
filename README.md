@@ -15,9 +15,10 @@ If you prefer **other search engines**, you still have the option to change the 
 
 ## What's new?
 
-### [version 1.6.6]
+### [version 1.6.]7
 
 - Add stackoverflow as an alternative search engine.
+- Security updates
 
 ### [version 1.5.0]
 
