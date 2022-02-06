@@ -7,6 +7,7 @@ const SEARCH_ENGINE_URLS: { [key: string]: string } = {
     "duckduckgo": "https://duckduckgo.com/?q=",
     "google": "https://www.google.com/search?q=",
     "stackoverflow": "https://stackoverflow.com/search?q=",
+    "yandex": "https://yandex.com/search/?text=",
 };
 
 export function activate(context: vscode.ExtensionContext) {
