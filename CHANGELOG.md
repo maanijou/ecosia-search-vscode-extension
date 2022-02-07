@@ -2,7 +2,11 @@
 
 All notable changes to the "ecosia-search" extension will be documented in this file.
 
-## [1.6.10]
+- ## [1.7.0]
+
+- Add Yandex as an alternative search engine.
+
+- ## [1.6.10]
 
 - Add stackoverflow as an alternative search engine.
 - Security updates
