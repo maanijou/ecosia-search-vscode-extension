@@ -1,7 +1,7 @@
 export function appendLanguageID(query: string, languageId: string | undefined, searchEngine: string): string {
     let newQuery: string = query;
 
-    if (!languageId) {
+    if (!languageId || languageId === "plaintext") {
         return query;
     }
 
