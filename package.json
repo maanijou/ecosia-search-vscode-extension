@@ -26,7 +26,8 @@
         "bing",
         "google",
         "stackoverflow",
-        "duckduckgo"
+        "duckduckgo",
+        "yandex"
     ],
     "activationEvents": [
         "onCommand:ecosia-search.search",
