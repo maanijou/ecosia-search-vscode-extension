@@ -2,9 +2,10 @@
 
 All notable changes to the "ecosia-search" extension will be documented in this file.
 
-- ## [1.7.0]
+- ## [1.7.1]
 
 - Add Yandex as an alternative search engine.
+- Ignore adding plaintext to query
 
 - ## [1.6.10]
 

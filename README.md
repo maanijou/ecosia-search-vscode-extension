@@ -15,9 +15,10 @@ If you prefer **other search engines**, you still have the option to change the 
 
 ## What's new?
 
-### [version 1.7.0]
+### [version 1.7.1]
 
 - Add Yandex as an alternative search engine.
+- Ignore adding plaintext to query
 
 ### [version 1.6.10]
 
