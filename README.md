@@ -7,11 +7,9 @@
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/maanijou/ecosia-search-vscode-extension/Build,%20Lint,%20and%20Test)
 ![License](https://img.shields.io/github/license/maanijou/ecosia-search-vscode-extension)
 
-
 The Ecosia search extension for Visual Studio Code makes it easy to search your code on the internet. The extension uses Ecosia search engine, a search engine that plants trees! Code, search and help to plant trees. For more information, visit [Ecosia webpage](https://info.ecosia.org/what).
 
 If you prefer **other search engines**, you still have the option to change the default search engine from the extension settings.
-
 
 ## What's new?
 
@@ -23,12 +21,12 @@ If you prefer **other search engines**, you still have the option to change the 
 
 ### [version 1.6.10]
 
-- Add stackoverflow as an alternative search engine.
+- Add Stackoverflow as an alternative search engine.
 - Security updates
 
 ### [version 1.5.0]
 
-- Add bing as an alternaive search engine.
+- Add bing as an alternative search engine.
 
 ## Features
 
@@ -40,7 +38,7 @@ Search your clipboard text from vscode using `Ecosia: Search clipboard` command.
 
 ![Search using clipboard](resources/tutorial2.gif)
 
-## Keybidings
+## Keybindings
 
 Now you can easily search only by using keyboard shortcuts.
 
