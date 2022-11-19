@@ -12,6 +12,7 @@ suite('Extension Test Suite', () => {
 		assert(expect === appendLanguageID(query, "python", "duckduckgo"));
 		assert(expect === appendLanguageID(query, "python", "google"));
 		assert(expect === appendLanguageID(query, "python", "bing"));
+		assert(expect === appendLanguageID(query, "python", "brave"));
 		expect = "[python] Some text";
 		assert(expect === appendLanguageID(query, "python", "stackoverflow"));
 	});

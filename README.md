@@ -13,6 +13,11 @@ If you prefer **other search engines**, you still have the option to change the 
 
 ## What's new?
 
+
+### [version 1.8.0]
+
+- Add Brave search engine.
+
 ### [version 1.7.X]
 
 - Add Yandex as an alternative search engine.

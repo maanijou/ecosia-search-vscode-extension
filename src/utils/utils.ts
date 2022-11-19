@@ -5,7 +5,7 @@ export function appendLanguageID(query: string, languageId: string | undefined, 
         return query;
     }
 
-    if (["ecosia", "duckduckgo", "google", "bing", "yandex"].includes(searchEngine)) {
+    if (["ecosia", "duckduckgo", "google", "bing", "brave", "yandex"].includes(searchEngine)) {
         newQuery = `${newQuery} +${languageId}`;
     } else if (searchEngine === "stackoverflow") {
         newQuery = `[${languageId}] ${newQuery}`;

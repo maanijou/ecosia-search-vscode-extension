@@ -2,7 +2,7 @@
     "name": "ecosia-search",
     "displayName": "Ecosia search",
     "description": "Search with Ecosia! The search engine that plants trees 🌲",
-    "version": "1.7.4",
+    "version": "1.8.0",
     "publisher": "maanijou",
     "license": "MIT",
     "icon": "resources/icon.png",
@@ -27,6 +27,7 @@
         "google",
         "stackoverflow",
         "duckduckgo",
+        "brave",
         "yandex"
     ],
     "activationEvents": [
@@ -98,6 +99,7 @@
                             "duckduckgo",
                             "google",
                             "stackoverflow",
+                            "brave",
                             "yandex"
                         ],
                         "enumDescriptions": [
@@ -106,6 +108,7 @@
                             "DuckDuckGo, privacy-preserving search engine",
                             "Google search engine",
                             "Stackoverflow",
+                            "Brave search engine",
                             "Yandex search engine"
                         ]
                     },

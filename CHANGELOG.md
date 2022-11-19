@@ -2,6 +2,11 @@
 
 All notable changes to the "ecosia-search" extension will be documented in this file.
 
+- ## [1.8.0]
+
+- Add Brave search
+
+
 - ## [1.7.X]
 
 - Add Yandex as an alternative search engine.
